@@ -27,6 +27,6 @@ A new Flutter plugin project.
   # Protobuf is for cast
   s.dependency 'Protobuf', '~> 3.13'
   s.dependency 'google-cast-sdk-dynamic-xcframework-no-bluetooth', '4.7.1'
-
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
 
