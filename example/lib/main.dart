@@ -12,7 +12,7 @@ import 'examples/simple_player.dart';
 import 'examples/downloader.dart';
 
 Future main() async {
-  //await BccmPlayerInterface.instance.setup();
+  await BccmPlayerInterface.instance.setup();
 
   // FocusDebugger.instance.activate();
 
