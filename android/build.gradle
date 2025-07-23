@@ -32,6 +32,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-parcelize'
 
 android {
+    namespace "media.bcc.bccm_player"
     compileSdkVersion 33
 
     compileOptions {
